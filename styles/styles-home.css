@@ -8,7 +8,7 @@ header {
     height: 268px;
 }
 .textes{
-    margin-left: 0em;
+    margin-left: 12em;
     font-size : 20px;
     margin-right: auto;
     width : 1000px;
@@ -20,7 +20,6 @@ header {
 .image-presentation{
     text-align: center;
     margin-left: 12em;
-    margin-right: auto;
     margin-top: 12em;
 }
 h1{
@@ -40,7 +39,9 @@ button{
     font-size: 40px;
     text-align: center;
     margin-left: 5em;
+    margin-right: 5em;
     font-weight: bold;
+    display: grid;
 }
 stan{
     font-size: 15px;
@@ -53,4 +54,8 @@ ul li {
     background-position: 0% 65%;
     padding-left: 25px;
     margin-left: 0px;
+}
+.texte-choix{
+    margin-top: 0.8em;
+    height: 50px
 }
